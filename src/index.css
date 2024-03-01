@@ -1,13 +1,81 @@
 body {
+  text-align: center;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(38, 38, 38);
+  font-family: Verdana, Geneva, sans-serif;
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(214, 214, 214);
+}
+
+#header{
+  font-style: italic;
+  font-family:Courier New;
+  background: linear-gradient(90deg, #ffffff 40%, #ff9393 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#inputbox{
+  border-radius: 10px;
+  width: 30%;
+  height: 20%;
+  font-size: larger;
+}
+
+#addbutton{
+  font-style: bold;
+  font-size: larger;
+  background: linear-gradient(45deg, #11ff00 40%, #8bff9a 60%);
+  border-radius: 10px;
+
+    -webkit-background-clip: button;
+}
+
+
+#itemcontainer{
+  float: center;
+  text-align: center;
+  list-style: inside;
+}
+
+#itembox {
+  float: left;
+  display: block;
+  width: 80%;
+  height: 15%;
+  color: #dfdfdf;
+  font-style: bold;
+  font-size: larger;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.33);
+  background: linear-gradient(90deg, #000000 40%, #09004d 60%);
+    -webkit-background-clip: button;
+}
+
+#removebutton{
+  float: right;
+  color: black;
+  font-style: bold;
+  font-size: larger;
+  border-radius: 10px;
+
+  background: linear-gradient(45deg, #ff1d1d 40%, #ff8585 60%);
+    -webkit-background-clip: button;
+}
+
+#textgradient{
+  background: linear-gradient(130deg, #8c5fff 40%, #64ff8d 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
